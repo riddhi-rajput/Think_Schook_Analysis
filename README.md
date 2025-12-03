@@ -13,29 +13,6 @@ The purpose of this project is to study content performance, understand audience
 
 This analysis was conducted independently as a learning + portfolio project in data analytics, visualisation, NLP, and content strategy.
 
-### Repository Structure
-Think_School_Analysis/
-│
-├── dashboards/            → Power BI dashboards for Shorts, Podcasts, Case Studies, and overall channel.
-│
-├── data/                  → Cleaned CSV datasets used for analysis.
-│
-├── notebooks/             → Jupyter notebooks with:
-│      - Data cleaning
-│      - Feature engineering
-│      - Visualisations
-│      - Insights generation
-│
-├── scraping/              → YouTube API scraping notebook (API key hidden via .gitignore).
-│
-├── report/                → Main report + 3 deep-dive reports (Shorts, Podcasts, Case Studies).
-│
-├── .gitignore             → Ensures API keys and sensitive files remain private.
-│
-├── README.md              → Project documentation (this file).
-│
-└── Think_School.ipynb     → Combined analysis notebook (final compiled version).
-
 ### Project Goals
 1)Scrape Think School's public YouTube data via YouTube Data API
 2)Clean and transform raw data for analysis
