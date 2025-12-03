@@ -5,9 +5,9 @@ I have tried to scrape and analyse the public data of Think School.
 A complete end-to-end data scraping, cleaning, analysis, and dashboarding project.
 
 This repository contains an in-depth analysis of the public data from Think School’s YouTube channel, covering:
-Shorts
-Podcasts
-Long-form Case Studies
+1)Shorts
+2)Podcasts
+3)Long-form Case Studies
 
 The purpose of this project is to study content performance, understand audience behaviour, identify hidden patterns, and generate actionable insights that can support content strategy and growth planning.
 
@@ -24,44 +24,40 @@ This analysis was conducted independently as a learning + portfolio project in d
 
 ### Key Features
 #### Data Scraping
-Used the YouTube Data API v3
-Extracted metadata including:
-view_count, like_count, comment_count, duration, publish date, titles, etc.
+1)Used the YouTube Data API v3
+2)Extracted metadata including: view_count, like_count, comment_count, duration, publish date, titles, etc.
 
 #### Data Cleaning & Feature Engineering
-Converted ISO timestamps
-Extracted year–month
-Parsed durations into seconds/minutes
-Removed Shorts from long-form dataset
-Created engagement metrics
+1)Converted ISO timestamps
+2)Extracted year–month
+3)Parsed durations into seconds/minutes
+4)Removed Shorts from long-form dataset
+5)Created engagement metrics
 
 #### Visual Analysis
 Includes:
-Duration vs Engagement
-Month/Year-wise performance
-Rolling averages
-Distribution plots
-Heatmaps
-Upload frequency
+1)Duration vs Engagement
+2)Month/Year-wise performance
+3)Rolling averages
+4)Distribution plots
+5)Heatmaps
+6)Upload frequency
 
 #### Dashboards
 Four separate Power BI dashboards:
-Overall Channel Overview
-Shorts Dashboard
-Podcast Dashboard
-Case Study Dashboard
+1)Overall Channel Overview
+2)Shorts Dashboard
+3)Podcast Dashboard
+4)Case Study Dashboard
 
 #### Reports
-Main Summary Report (5 pages)
-Detailed Shorts Analysis
-Detailed Podcasts Analysis
-Detailed Case Study Analysis
+1)Main Summary Report 
 
 #### Insights Summary (Examples)
-60-second Shorts consistently achieve the highest engagement
-Geopolitical case studies dominate the Top 10 most viewed videos
-Podcast viewership peaks during vacation months
-18–22 minute case studies perform the best among long-form videos
+1)60-second Shorts consistently achieve the highest engagement
+2)Geopolitical case studies dominate the Top 10 most viewed videos
+3)Podcast viewership peaks during vacation months
+4)18–22 minute case studies perform the best among long-form videos
 (Full insights are available in the reports/ folder.)
 
 ### API Key Security
@@ -74,22 +70,22 @@ No sensitive information is exposed
 The repository remains safe for public sharing
 
 ### Tech Stack
-Python
-pandas
-matplotlib
-seaborn
-google-api-python-client
-Power BI 
-Jupyter Notebook
-GitHub 
+1)Python
+2)pandas
+3)matplotlib
+4)seaborn
+5)google-api-python-client
+6)Power BI 
+7)Jupyter Notebook
+8)GitHub 
 
 ### How to Use This Repository
-Clone the repository
-Install dependencies (pip install -r requirements.txt if needed)
-Add your own config.py with:
-API_KEY = "YOUR_API_KEY"
-Run the scraping notebook 
-Use the cleaned datasets for analysis or dashboards
+1)Clone the repository
+2)Install dependencies (pip install -r requirements.txt if needed)
+3)Add your own config.py with:
+4)API_KEY = "YOUR_API_KEY"
+5)Run the scraping notebook 
+6)Use the cleaned datasets for analysis or dashboards
 
 ### Acknowledgements
 This project was inspired by the exceptional work of Think School, whose storytelling and educational content make complex business, geopolitical, and strategic subjects accessible to everyone.
