@@ -96,7 +96,9 @@ This project was inspired by the exceptional work of Think School, whose storyte
 
 ## Contact
 _Riddhi Rajput_
-Data Analytics & Content Strategy Enthusiast
-GitHub: https://github.com/riddhi-rajput
+
+_Data Analytics & Content Strategy Enthusiast_
+
+_GitHub: https://github.com/riddhi-rajput_
 
 Email: rajputriddhi825@gmail.com
